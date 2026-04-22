@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: '/ai-coding-Gwen-Killinger/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
